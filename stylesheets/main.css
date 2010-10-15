@@ -1,0 +1,48 @@
+/* Base elements ---------------------------------------------------------- */
+body {
+  font-family: "Droid Sans", verdana, sans-serif;
+  font-size: 15px;
+  background-color: #dcdcdc;
+  color: black;
+  margin: 25px 50px; }
+
+a {
+  color: #0078ae; }
+
+a:hover {
+  color: #00557b; }
+
+h1 {
+  font-size: 300%;
+  color: #00557b; }
+
+h2 {
+  font-style: italic;
+  color: #aaaaaa; }
+
+p {
+  margin: 20px 0;
+  line-height: 130%; }
+
+footer {
+  margin: 20px 0;
+  padding: 20px 0 0 0;
+  border-top: solid 1px #aaaaaa; }
+
+/* Layout elements -------------------------------------------------------- */
+body > section {
+  width: 740px;
+  background-color: white;
+  margin: 20px 0;
+  padding: 10px 30px;
+  border: solid 1px black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 2px #7f7f7f;
+  -moz-box-shadow: 2px 2px 2px #7f7f7f;
+  box-shadow: 2px 2px 2px #7f7f7f; }
+  body > section h1 {
+    color: black;
+    margin: 20px 0;
+    font-size: 110%; }
