@@ -129,7 +129,7 @@ contents of my clipboard to a new note.
 
 Clipping (taking a screenshot) of part of my screen is especially handy for
 saving receipts of online orders or remembering IM conversations about a task
-you'll need to do later.
+I'll need to do later.
 
 There are also browser extensions for saving web pages to a new note. You can
 "clip" the whole page, or simply save the url and add a text note to it. I'll
@@ -146,7 +146,7 @@ It's good. There are probably others. Maybe.
 #### Not at my computer (oh no)
 
 When I'm away from my computer I always have my smart telephone with me so I
-use the [Evernote Android App](http://www.appbrain.com/app/evernote/com.evernote).
+use the [Evernote Android app](http://www.appbrain.com/app/evernote/com.evernote).
 There's an iPhone version too if that's how you roll.
 
 #### At a sucky computer
@@ -195,9 +195,9 @@ Other than that the notes are sorted by the "created on" date, oldest first.
 
 But sometimes you have a big long list of things that absolutely have to be
 completed in a very specific order and that order may not map directly to a
-"created on" date. Calm down! In those cases I just throw all the tasks into
-one note. One task does not have to correspond to one note. I never said that.
-Stop saying that I said that.
+note's "created on" date. Calm down! In those cases I just throw all the tasks
+into one note. One task does not have to correspond to one note. I never said
+that. Stop saying that I said that.
 
 ## Disclaimer
 
