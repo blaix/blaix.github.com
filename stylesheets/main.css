@@ -49,3 +49,49 @@ body > section {
     color: black;
     margin: 20px 0;
     font-size: 110%; }
+
+/* Articles --------------------------------------------------------------- */
+article hgroup h1 {
+  font-size: 225%;
+  margin-bottom: 4px; }
+
+article hgroup h2 {
+  font-size: 100%;
+  color: #aaa;
+  font-style: normal;
+  margin-left: 2px;
+  padding: 0;
+  border: none;
+  background: none; }
+
+article h2 {
+  font-size: 150%;
+  font-style: normal;
+  color: #00557b;
+  border: solid 1px #ccc;
+  padding: 4px;
+  background-color: #eee;
+  clear: left; }
+
+article h3 {
+  font-size: 125%;
+  padding-bottom: 2px;
+  border-bottom: solid 1px #ccc;
+  clear: left; }
+
+article h4 {
+  font-size: 100%; }
+
+article ul {
+  margin: 20px 30px; }
+  article ul li {
+    margin-bottom: 10px; }
+
+article img {
+  float: left;
+  margin: 0 20px 20px 0;
+  border: solid 1px #ccc; }
+
+/* General-purpose classes ------------------------------------------------ */
+.cough {
+  font-size: 75%; }
