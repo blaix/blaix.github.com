@@ -11,3 +11,5 @@ disable_comments: true
 * Use tags for priorities prepended with underscore. Example: \_urgent
 * Use normally-named tags for projects
 * Each note is a task, a list of tasks, or just a note. Keep it loose like a goose.
+
+[Read the full post &raquo;](/blog/gtd-with-evernote.html)
