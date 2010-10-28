@@ -5,6 +5,10 @@ layout: post
 
 There are many posts about this. Here's mine.
 
+Already know your way around Evernote? Already understand the basics of GTD?
+Hate the way I use words to make sentences?
+<a href="/blog/gtd-with-evernote-tldr.html">Here's the tl;dr version</a>.
+
 ## Getting Things Done with a capital GTD
 
 My concept of Getting Things Done is loosely based on
