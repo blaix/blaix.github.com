@@ -9,3 +9,4 @@ layout: post
 * Use tags for contexts prepended with @. Examples: @work, @home, @phone
 * Use tags for priorities prepended with underscore. Example: \_urgent
 * Use normally-named tags for projects
+* Each note is a task, a list of tasks, or just a note. Keep it loose like a goose.
