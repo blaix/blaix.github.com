@@ -31,6 +31,10 @@ footer {
   margin: 20px 0;
   padding: 20px 0 0 0;
   border-top: solid 1px #aaaaaa; }
+  
+ul {
+  margin-left: 30px;
+}
 
 /* Layout elements -------------------------------------------------------- */
 body > section {
@@ -87,17 +91,17 @@ article h2 {
   border-radius: 4px;
   padding: 4px;
   background-color: #eee;
-  clear: left; }
+  clear: both; }
 
 article h3 {
   font-size: 125%;
   padding-bottom: 2px;
   border-bottom: solid 1px #ccc;
-  clear: left; }
+  clear: both; }
 
 article h4 {
   font-size: 100%;
-  clear: left; }
+  clear: both; }
 
 article ul {
   margin: 20px 30px; }
@@ -114,3 +118,13 @@ article #comments a { text-decoration: none; }
 /* General-purpose classes ------------------------------------------------ */
 .cough {
   font-size: 75%; }
+
+.note {
+  width: 50%;
+  float: right;
+  font-size: 85%;
+  color: #555;
+  padding: 4px;
+  margin: 0 0 20px 20px;
+  border: dotted 1px #bbb;
+}

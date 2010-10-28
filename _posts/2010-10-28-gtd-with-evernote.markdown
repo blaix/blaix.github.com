@@ -1,13 +1,14 @@
 ---
 title: Getting Things Done with Evernote
 layout: post
+summary: There are many posts about this. Here's mine.
 ---
 
-There are many posts about this. Here's mine.
-
-Already know your way around Evernote? Already understand the basics of GTD?
+<p class="note">Already know your way around Evernote? Already understand the basics of GTD?
 Hate the way I use words to make sentences?
-<a href="/blog/gtd-with-evernote-tldr.html">Here's the tl;dr version</a>.
+<a href="/blog/gtd-with-evernote-tldr.html">Here's the tl;dr version</a>.</p>
+
+There are many posts about this. Here's mine.
 
 ## Getting Things Done with a capital GTD
 
@@ -49,8 +50,8 @@ half-thought-out thought into your inbox and forget about it. Get on with what
 you're doing right now with a clear head. You know that thought is somewhere
 safe. You trust your system, remember? You'll come back to it later.
 
-<span class="cough">I just realized "Do X" can be interpreted as a literal
-task if you do drugs.</span>
+<p class="cough">I just realized "Do X" can be interpreted as a literal
+task if you do drugs.</p>
 
 Later, when you're actually ready to Get some Things Done you can review your
 inbox. Maybe that thing wasn't really all that important and you can just
@@ -87,9 +88,9 @@ Every note in Evernote belongs to a notebook. I set up the following:
 **Inbox**: I tell Evernote to put new notes here by default. Pro tip: I
 name it "!nbox" so it shows up first alphabetically.
 
-**TODO**: When I go through my inbox (daily at least) and I come across a
-note that I consider a task but don't want to do right now, I tag it (more
-on that later) and then file it in the TODO notebook.
+**TODO**: When I go through my inbox (daily at least) and I come across a note
+that I consider a task but I don't want to do it right now, I tag it (more on
+that later) and then file it in the TODO notebook.
 
 **Reference**: Anything that's not a task, but still something I want to
 remember gets tagged and moved to the Reference notebook. I use this for
