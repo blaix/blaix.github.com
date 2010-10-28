@@ -116,11 +116,7 @@ article img {
   
 article #comments a { text-decoration: none; }
 
-/* General-purpose classes ------------------------------------------------ */
-.cough {
-  font-size: 75%; }
-
-.note {
+article aside {
   width: 50%;
   float: right;
   font-size: 85%;
@@ -129,3 +125,7 @@ article #comments a { text-decoration: none; }
   margin: 0 0 20px 20px;
   border: dotted 1px #bbb;
 }
+
+/* General-purpose classes ------------------------------------------------ */
+.cough {
+  font-size: 75%; }
