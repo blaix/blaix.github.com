@@ -2,6 +2,7 @@
 title: Getting Things Done with Evernote (tl;dr)
 date: 2010-10-28
 layout: post
+disable_comments: true
 ---
 
 * Your default notebook is your Inbox
