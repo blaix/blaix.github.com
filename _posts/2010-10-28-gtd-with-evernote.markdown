@@ -149,13 +149,28 @@ When I'm away from my computer I always have my smart telephone with me so I
 use the [Evernote Android app](http://www.appbrain.com/app/evernote/com.evernote).
 There's an iPhone version too if that's how you roll.
 
+#### Email
+
+![Forwarding an email to Evernote](http://img.skitch.com/20101028-d69w45e8yfmqewwuhsixsuabmk.jpg)
+
+Evernote gives you a special email address. Anything sent to that address will
+be added to your inbox. I add that address to my contacts and since I use
+gmail I can quickly add tasks from anywhere. I mostly use this to forward emails
+that require action from me. This keeps my email inbox clean. When I review
+the email later in my Evernote inbox I can complete the task or clean it up and file
+it under a context to do later.
+
+It even works with attachments.
+
 #### At a sucky computer
 
 When I'm on a computer where Evernote is not installed (or not supported...
 <span class="cough">Linux</span>) everything is also accessible via the
 website.
 
-Plus there's still the browser extensions.
+Plus there's still the browser extensions and email integration. Those work from
+any computer. Unless that computer isn't connected to the Internet. But then,
+is that really a computer?
 
 *And it's all synced!*
 
