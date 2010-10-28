@@ -4,9 +4,11 @@ layout: post
 summary: There are many posts about this. Here's mine.
 ---
 
-<aside>Already know your way around Evernote? Already understand the basics of GTD?
-Hate the way I use words to make sentences?
-<a href="/blog/gtd-with-evernote-tldr.html">Here's the tl;dr version</a>.</aside>
+<aside>
+  Already know your way around Evernote? Already understand the basics of GTD?
+  Hate the way I use words to make sentences?
+  <a href="/blog/gtd-with-evernote-tldr.html">Here's the tl;dr version</a>.
+</aside>
 
 There are many posts about this. Here's mine.
 
