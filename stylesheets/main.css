@@ -89,7 +89,7 @@ article h2 {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  padding: 4px;
+  padding: 10px;
   background-color: #eee;
   clear: both; }
 
@@ -124,7 +124,7 @@ article #comments a { text-decoration: none; }
   float: right;
   font-size: 85%;
   color: #555;
-  padding: 4px;
+  padding: 10px;
   margin: 0 0 20px 20px;
   border: dotted 1px #bbb;
 }
