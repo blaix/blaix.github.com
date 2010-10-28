@@ -70,12 +70,13 @@ nav a {
 /* Articles --------------------------------------------------------------- */
 article hgroup h1 {
   font-size: 225%;
-  margin-bottom: 4px; }
+  margin-bottom: 10px; }
 
 article hgroup h2 {
   font-size: 100%;
-  color: #aaa;
+  color: #888;
   font-style: normal;
+  font-weight: normal;
   margin-left: 2px;
   padding: 0;
   border: none;
