@@ -8,18 +8,63 @@
     <meta charset='utf-8'> 
     <link href='/stylesheets/reset.css' rel='stylesheet' type='text/css'> 
     <link href='/stylesheets/main.css' rel='stylesheet' type='text/css'> 
-    <title>Hentzia, Inc.</title> 
+    <link href="http://feeds.feedburner.com/hentzia" rel="alternate" title="RSS" type="application/rss+xml">
+    <title>404 oh no</title> 
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19371383-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </head> 
   <body>
     <hgroup> 
-      <h1>Hentzia</h1> 
+      <h1><a href="/">Hentzia</a></h1> 
       <h2>makin' webs</h2> 
     </hgroup> 
-    <section>
-      <h1>Congratulations! You've reached the 404 page!</h1> 
-      <p>You are here because whatever page you are trying to reach does not
-      actually exist. For this, you have a won a genuine hentzia dot com NO
-      PRIZE!</p>
+    <nav>
+      <a id="nav-blog" href="/blog">Blog</a>
+      <a id="nav-feed" href="http://feeds.feedburner.com/hentzia"><img src="/images/icons/feed-icon-14x14.png" alt="Feed Icon" title="Subscribe to the RSS Feed"></a>
+    </nav>
+    <section> 
+      <article>
+        <hgroup>
+          <h1>Congratulations!</h1>
+          <h2>You've reached the 404 page.</h2>
+        </hgroup>
+        <p>You are here because whatever page you are trying to reach does not
+        actually exist. For this, you have a won a genuine hentzia dot com NO
+        PRIZE!</p>
+        <section id="comments">
+          <h2>Discuss: <a href="{{ post.url }}#disqus_thread">Comments</a></h2>
+          <p>Comments on the 404 page? Why not!</p>
+          <div id="disqus_thread"></div>
+          <!-- Disqus comments -->
+          <script type="text/javascript">
+            var disqus_identifier = "{{ post.id }}";
+            (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://hentzia.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=hentzia">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        </section>
+      </article>
     </section>
+    <!-- Disqus comment count code -->
+    <script type="text/javascript">
+    var disqus_shortname = 'hentzia';
+    (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.src = 'http://disqus.com/forums/hentzia/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
   </body> 
 </html>
