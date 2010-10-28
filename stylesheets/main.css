@@ -36,7 +36,7 @@ footer {
 body > section {
   width: 740px;
   background-color: white;
-  margin: 20px 0;
+  margin: 0;
   padding: 10px 30px;
   border: solid 1px black;
   -webkit-border-radius: 10px;
@@ -49,6 +49,19 @@ body > section {
     color: black;
     margin: 20px 0;
     font-size: 110%; }
+
+nav {
+  width: 800px;
+  text-align: right;
+  padding-bottom: 4px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 125%;
+  color: #000;
+}
 
 /* Articles --------------------------------------------------------------- */
 article hgroup h1 {

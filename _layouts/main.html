@@ -8,6 +8,7 @@
     <meta charset='utf-8'> 
     <link href='/stylesheets/reset.css' rel='stylesheet' type='text/css'> 
     <link href='/stylesheets/main.css' rel='stylesheet' type='text/css'> 
+    <link href="http://feeds.feedburner.com/hentzia" rel="alternate" title="RSS" type="application/rss+xml">
     <title>{{ page.title }}</title> 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -25,6 +26,10 @@
       <h1><a href="/">Hentzia</a></h1> 
       <h2>makin' webs</h2> 
     </hgroup> 
+    <nav>
+      <a id="nav-blog" href="/blog">Blog</a>
+      <a id="nav-feed" href="http://feeds.feedburner.com/hentzia"><img src="/images/icons/feed-icon-14x14.png" alt="Feed Icon" title="Subscribe to the RSS Feed"></a>
+    </nav>
     <section> 
       {{ content }}
     </section>
