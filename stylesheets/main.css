@@ -92,6 +92,8 @@ article img {
   float: left;
   margin: 0 20px 20px 0;
   border: solid 1px #ccc; }
+  
+article #comments a { text-decoration: none; }
 
 /* General-purpose classes ------------------------------------------------ */
 .cough {
