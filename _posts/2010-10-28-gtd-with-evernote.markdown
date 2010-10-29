@@ -4,7 +4,7 @@ layout: post
 summary: There are many posts about this. Here's mine.
 ---
 
-<!--6eb09d8a718d4dfbba14ebcb903e5cca-->
+<!--7fb4a30919da4e7ca961bdafcb9c6d45-->
 
 <aside>
   Already know your way around Evernote? Already understand the basics of GTD?
