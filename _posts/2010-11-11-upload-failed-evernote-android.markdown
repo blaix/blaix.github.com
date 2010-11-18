@@ -29,3 +29,10 @@ The downside is logging out clears the cache on your phone, which means
 **all the notes I added since the upgrade were lost**. Luckily they weren't
 too important. Just stuff like "todo: check if notes added on my phone are
 being synced properly".
+
+## Update:
+
+I started experiencing the upload issue again. I didn't want to lose any notes
+this time so I contacted support, they recommended I upgrade to the beta
+version by visiting [this url](http://s.evernote.com/androidbeta) on my phone.
+But by the time I go the message the uploads started working again.
