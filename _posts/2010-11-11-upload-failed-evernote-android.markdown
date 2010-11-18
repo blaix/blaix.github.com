@@ -33,6 +33,6 @@ being synced properly".
 ## Update:
 
 I started experiencing the upload issue again. I didn't want to lose any notes
-this time so I contacted support, they recommended I upgrade to the beta
-version by visiting [this url](http://s.evernote.com/androidbeta) on my phone.
-But by the time I go the message the uploads started working again.
+this time so I contacted support. They recommended I upgrade to the beta
+version by visiting [this url](http://s.evernote.com/androidbeta) on my phone,
+but by the time I go the message the uploads started working again.
