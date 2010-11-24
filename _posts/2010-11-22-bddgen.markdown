@@ -1,0 +1,19 @@
+---
+title: Cucumber & RSpec boilerplate with bddgen
+layout: post
+summary: Just pushed out a quick little gem to generate some boilerplate common to most of my ruby projects.
+---
+
+Whenever I add things like [Cucumber](http://cukes.info/) and
+[RSpec](https://github.com/rspec/rspec) to a ruby project, I always have to
+go back to old (or other people's) code to remember the best way to add and
+configure things. Particularly the rake tasks. So I wrote
+[a gem to generate all that boilerplate for me](https://github.com/blaix/bddgen).
+I called it **bddgen**. It can do [YARD](http://yardoc.org) too.
+
+All the instructions are in [the README on github](https://github.com/blaix/bddgen).
+I almost repeated it all here. Then I didn't.
+
+Of course, this is for projects that don't already have generators for things
+like that. If you're writing a rails app or something, then
+[it's not *for* you](http://www.penny-arcade.com/comic/2004/3/24/).
