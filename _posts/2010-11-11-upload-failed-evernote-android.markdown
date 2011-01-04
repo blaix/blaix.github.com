@@ -7,6 +7,7 @@ summary: Getting the "Upload Failed" error since upgrading the Evernote Android 
 <aside>
   Are you getting the "Upload Failed" error since upgrading
   the Evernote Android app? Log out and log back in to fix it.
+  **See updates below.**
 </aside>
 
 [I really like Evernote](/blog/gtd-with-evernote.html), and
@@ -36,3 +37,10 @@ I started experiencing the upload issue again. I didn't want to lose any notes
 this time so I contacted support. They recommended I upgrade to the beta
 version by visiting [this url](http://s.evernote.com/androidbeta) on my phone,
 but by the time I go the message the uploads started working again.
+
+## Update 2 - Jan 4, 2010:
+
+I'm on the latest version and this has mostly been resolved. For some reason I
+usually see upload failed errors after sending something to evernote via the
+"share" menu of another app (Twitter in particular). Eventually the notes do
+sync, but it's quite annoying. Anyone else seeing this or have suggestions?
