@@ -1,22 +1,20 @@
 ---
 layout: main
-title: Hentzia, Inc.
+title: Hentzia
 ---
 
-<h1>Hentzia is Justin Blake, a web developer doing mostly ruby
-and python.</h1>
+<h1>The Posts:</h1>
 
-<p>I like to keep things test-driven and agile. I
-sometimes <a href="/blog/" title="The Hentzia Blog">blog</a> and dabble in
-<a href='http://github.com/blaix' title='Justin Blake on Github'>open
-source</a> when I'm not making other people's dreams come true.</p>
-
-<p>You can follow <a href="http://twitter.com/blaix" title="Justin Blake's
-Twitter">me on Twitter</a>
-if you feel like getting social. You can also laugh at <a
-href="http://www.last.fm/user/blaix" title="Justin Blake's last.fm
-profile">the music I listen to</a>. So many ways to get to know me!</p>
-
-<footer>
-  <strong><a href='mailto:justin@hentzia.com' title='justin@hentzia.com'>Contact me.</a></strong> 
-</footer>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <p>
+        <strong>
+          <time>{{ post.date | date_to_string }}</time>:
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </strong>
+        <br>{{ post.summary }} <a href="{{ post.url }}">Read more &raquo;</a>
+      </p>
+    </li>
+  {% endfor %}
+</ul>
