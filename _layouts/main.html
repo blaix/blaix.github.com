@@ -8,7 +8,7 @@
     <meta charset='utf-8'> 
     <link href='/stylesheets/reset.css' rel='stylesheet' type='text/css'> 
     <link href='/stylesheets/main.css' rel='stylesheet' type='text/css'> 
-    <link href="http://feeds.feedburner.com/hentzia" rel="alternate" title="RSS" type="application/rss+xml">
+    <link href="/atom.xml" rel="alternate" title="RSS" type="application/rss+xml">
     <title>{{ page.title }}</title> 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -24,11 +24,11 @@
   <body>
     <hgroup> 
       <h1><a href="/">Hentzia</a></h1> 
-      <h2>makin' webs</h2> 
+      <h2>Justin Blake's blog about programming</h2> 
     </hgroup> 
     <nav>
-      <a id="nav-blog" href="/blog">Blog</a>
-      <a id="nav-feed" href="http://feeds.feedburner.com/hentzia"><img src="/images/icons/feed-icon-14x14.png" alt="Feed Icon" title="Subscribe to the RSS Feed"></a>
+      <a id="nav-feed" href="/atom.xml"><img src="/images/icons/feed-icon-14x14.png" alt="Feed Icon" title="Atom Feed"></a>
+      <a id="nav-twitter" href="/https://twitter.com/blaix"><img src="/images/icons/twitter-bird-16x16.png" alt="Twitter Icon" title="@blaix on Twitter"></a>
     </nav>
     <section> 
       {{ content }}
