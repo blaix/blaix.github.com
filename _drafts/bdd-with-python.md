@@ -69,9 +69,9 @@ Then run `nosetests` with the `--with-spec` option provided (by pinocchio) and
 you should see your beautiful specs instead of a boring row of dots.
 
 But wait, since all of the underscores are turned into spaces, the specs that
-mention variable names are a bit confusing. You can fix that with docstrings.
-If nose sees one, it will use that instead of converting the Class or method
-name. For example:
+mention variable names are a bit confusing (e.g. "published at" instead of
+"published_at"). You can fix that with docstrings.  If nose sees one, it will
+use that instead of converting the Class or method name. For example:
 
 ```
 def test_sets_published_at_to_given_date(self):
@@ -79,6 +79,17 @@ def test_sets_published_at_to_given_date(self):
     ...
 ```
 
-This only covers the specific nuts and bolts of how to write tests like
-this in python. So I hope it marks my return to blogging, because I have a lot
-more to say about testing in general. We'll see!
+You can also use the `--spec-color` option to easily see the status of your
+specs (yellow: pending, red: fail, green: pass).
+
+If you want to write specs like this with Django, configure nose as your
+test runner in `settings.py` with:
+
+```
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+NOSE_ARGS = ['--with-spec', '--spec-color']
+```
+
+This only covers the specific nuts and bolts of getting spec output with
+python. I hope this marks my return to blogging, because I have lot more to say
+on the subject of testing in general.
