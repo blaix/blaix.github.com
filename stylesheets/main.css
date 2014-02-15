@@ -31,6 +31,16 @@ p {
   line-height: 130%;
 }
 
+code {
+  background: #eee;
+}
+
+pre code {
+  display: block;
+  padding: 2px 4px;
+  border: solid 1px #ddd;
+}
+
 footer {
   margin: 20px 0;
   padding: 20px 0 0 0;
