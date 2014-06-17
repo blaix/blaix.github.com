@@ -35,7 +35,7 @@ handy extension to python's `unittest`) with the
 [pinocchio](http://darcs.idyll.org/~t/projects/pinocchio/doc/) plugin (a handy
 set of extensions to nose).
 
-~~
+~~~
 pip install nose
 pip install pinocchio
 ~~~
