@@ -6,9 +6,10 @@ summary: Part of a discussing about "introducing XP" that focused on pairing
 
 A while back I had an email discussion with an old colleague who was trying to
 introduce some [XP principles](http://www.extremeprogramming.org/) into his
-team's process. Part of the discussion focused on pair programming. Since I've
-had discussions like this several times, I decided to convert it into a blog
-post so I can point here instead of repeating myself. Efficiency!
+team's process. Part of the discussion focused on
+[pair programming](http://www.extremeprogramming.org/rules/pair.html). Since
+I've had discussions like this several times, I decided to convert it into a
+blog post so I can point here instead of repeating myself. Efficiency!
 
 ---
 
