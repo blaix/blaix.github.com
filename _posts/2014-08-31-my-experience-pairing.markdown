@@ -1,5 +1,5 @@
 ---
-title: My Thoughts and Experiences on Pair Programming
+title: How to Sell Pair Programming
 layout: post
 summary: Part of a discussing about "introducing XP" that focused on pairing
 ---
