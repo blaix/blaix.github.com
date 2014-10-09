@@ -66,6 +66,7 @@ body > section {
 }
 
 body > section h1 {
+  float: none;
   color: black;
   margin: 0 0 20px 0;
   font-size: 110%;
