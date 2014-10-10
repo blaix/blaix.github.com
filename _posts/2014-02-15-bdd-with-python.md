@@ -42,15 +42,15 @@ pip install pinocchio
 
 and write your tests with a structure like this:
 
-~~~ python
+{% highlight python %}
 class Test[the thing being tested](TestCase):
     def test_[sentence describing the behavior](self):
         ...
-~~~
+{% endhighlight %}
 
 For example:
 
-~~~ python
+{% highlight python %}
 from unittest import TestCase
 
 
@@ -63,7 +63,7 @@ class TestPostPublisher(TestCase):
 
     def test_does_nothing_for_published_posts(self):
         ...
-~~~
+{% endhighlight %}
 
 Then run `nosetests` with the `--with-spec` option provided (by pinocchio) and
 you should see your beautiful specs instead of a boring row of dots.
@@ -73,11 +73,11 @@ mention variable names are a bit confusing (e.g. "published at" instead of
 "published_at"). You can fix that with docstrings.  If nose sees one, it will
 use that instead of converting the Class or method name. For example:
 
-~~~ python
+{% highlight python %}
 def test_sets_published_at_to_given_date(self):
     """sets published_at to given date"""
     ...
-~~~
+{% endhighlight %}
 
 You can also use the `--spec-color` option to easily see the status of your
 specs (yellow: pending, red: fail, green: pass).
@@ -85,10 +85,10 @@ specs (yellow: pending, red: fail, green: pass).
 If you want to write specs like this with Django, configure nose as your
 test runner in `settings.py` with:
 
-~~~ python
+{% highlight python %}
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 NOSE_ARGS = ['--with-spec', '--spec-color']
-~~~
+{% endhighlight %}
 
 This only covers the specific nuts and bolts of getting spec output with
 python. I hope this marks my return to blogging, because I have lot more to say
